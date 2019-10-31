@@ -1,0 +1,692 @@
+[INFO] 2019-08-15 13:30:46.859 cn.escheduler.api.EschedulerApplication:[646] - No active profile set, falling back to default profiles: default
+[WARN] 2019-08-15 13:30:47.635 org.mybatis.spring.mapper.ClassPathMapperScanner:[166] - No MyBatis mapper was found in '[cn.escheduler.api]' package. Please check your configuration.
+[INFO] 2019-08-15 13:30:47.822 org.springframework.cloud.context.scope.GenericScope:[295] - BeanFactory id=ee9aa157-ff0a-324e-990e-59fc993dc6dd
+[INFO] 2019-08-15 13:30:47.893 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:[330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$310d77ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2019-08-15 13:30:47.906 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4d277aaa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2019-08-15 13:30:48.022 org.eclipse.jetty.util.log:[193] - Logging initialized @3656ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO] 2019-08-15 13:30:48.157 org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory:[143] - Server initialized with port: 12345
+[INFO] 2019-08-15 13:30:48.159 org.eclipse.jetty.server.Server:[370] - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 12+33
+[INFO] 2019-08-15 13:30:48.187 org.eclipse.jetty.server.handler.ContextHandler.application:[2351] - Initializing Spring embedded WebApplicationContext
+[INFO] 2019-08-15 13:30:48.188 org.springframework.web.context.ContextLoader:[283] - Root WebApplicationContext: initialization completed in 1321 ms
+[INFO] 2019-08-15 13:30:48.226 org.eclipse.jetty.server.session:[365] - DefaultSessionIdManager workerName=node0
+[INFO] 2019-08-15 13:30:48.227 org.eclipse.jetty.server.session:[370] - No SessionScavenger set, using defaults
+[INFO] 2019-08-15 13:30:48.228 org.eclipse.jetty.server.session:[149] - node0 Scavenging every 660000ms
+[INFO] 2019-08-15 13:30:48.234 org.eclipse.jetty.server.handler.ContextHandler:[857] - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@3c60c681{application,/,[file:///C:/Users/T1734/AppData/Local/Temp/jetty-docbase.7818357076516709209.12345/, jar:file:/X:/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources, jar:file:/X:/repository/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/META-INF/resources],AVAILABLE}
+[INFO] 2019-08-15 13:30:48.234 org.eclipse.jetty.server.Server:[410] - Started @3868ms
+[WARN] 2019-08-15 13:30:48.267 org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext:[557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accessTokenController': Unsatisfied dependency expressed through field 'accessTokenService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accessTokenService': Unsatisfied dependency expressed through field 'accessTokenMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.escheduler.dao.mapper.AccessTokenMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[INFO] 2019-08-15 13:30:48.270 org.eclipse.jetty.server.session:[167] - node0 Stopped scavenging
+[INFO] 2019-08-15 13:30:48.272 org.eclipse.jetty.server.handler.ContextHandler:[1047] - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@3c60c681{application,/,[file:///C:/Users/T1734/AppData/Local/Temp/jetty-docbase.7818357076516709209.12345/, jar:file:/X:/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources, jar:file:/X:/repository/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/META-INF/resources],UNAVAILABLE}
+[INFO] 2019-08-15 13:30:48.278 org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:[135] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR] 2019-08-15 13:30:48.392 org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:[40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field accessTokenMapper in cn.escheduler.api.service.AccessTokenService required a bean of type 'cn.escheduler.dao.mapper.AccessTokenMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'cn.escheduler.dao.mapper.AccessTokenMapper' in your configuration.
+
+[INFO] 2019-08-15 13:31:35.917 cn.escheduler.api.EschedulerApplication:[646] - No active profile set, falling back to default profiles: default
+[INFO] 2019-08-15 13:31:37.107 org.springframework.cloud.context.scope.GenericScope:[295] - BeanFactory id=a92ec2c3-9c59-3abc-a1b9-6860211a21d8
+[INFO] 2019-08-15 13:31:37.211 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:[330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d730b2ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2019-08-15 13:31:37.225 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f34ab5eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2019-08-15 13:31:37.355 org.eclipse.jetty.util.log:[193] - Logging initialized @3168ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO] 2019-08-15 13:31:37.469 org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory:[143] - Server initialized with port: 12345
+[INFO] 2019-08-15 13:31:37.470 org.eclipse.jetty.server.Server:[370] - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 12+33
+[INFO] 2019-08-15 13:31:37.495 org.eclipse.jetty.server.handler.ContextHandler.application:[2351] - Initializing Spring embedded WebApplicationContext
+[INFO] 2019-08-15 13:31:37.495 org.springframework.web.context.ContextLoader:[283] - Root WebApplicationContext: initialization completed in 1566 ms
+[INFO] 2019-08-15 13:31:37.526 org.eclipse.jetty.server.session:[365] - DefaultSessionIdManager workerName=node0
+[INFO] 2019-08-15 13:31:37.527 org.eclipse.jetty.server.session:[370] - No SessionScavenger set, using defaults
+[INFO] 2019-08-15 13:31:37.528 org.eclipse.jetty.server.session:[149] - node0 Scavenging every 600000ms
+[INFO] 2019-08-15 13:31:37.534 org.eclipse.jetty.server.handler.ContextHandler:[857] - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@17a77a7e{application,/,[file:///C:/Users/T1734/AppData/Local/Temp/jetty-docbase.12188534502871228226.12345/, jar:file:/X:/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources, jar:file:/X:/repository/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/META-INF/resources],AVAILABLE}
+[INFO] 2019-08-15 13:31:37.534 org.eclipse.jetty.server.Server:[410] - Started @3347ms
+[INFO] 2019-08-15 13:31:37.765 com.alibaba.druid.pool.DruidDataSource:[991] - {dataSource-1} inited
+[INFO] 2019-08-15 13:31:38.141 cn.escheduler.common.queue.TaskQueueFactory:[51] - task queue impl use zookeeper 
+[WARN] 2019-08-15 13:31:38.159 org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext:[557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'executorController': Unsatisfied dependency expressed through field 'execService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'executorService': Unsatisfied dependency expressed through field 'processDefinitionService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'processDefinitionService': Unsatisfied dependency expressed through field 'processDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'processDao' defined in URL [jar:file:/X:/repository/cn/analysys/escheduler-dao/1.0.4-SNAPSHOT/escheduler-dao-1.0.4-SNAPSHOT.jar!/cn/escheduler/dao/ProcessDao.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [cn.escheduler.dao.ProcessDao]: Constructor threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/curator/connection/StandardConnectionHandlingPolicy
+[INFO] 2019-08-15 13:31:38.163 com.alibaba.druid.pool.DruidDataSource:[1928] - {dataSource-1} closed
+[INFO] 2019-08-15 13:31:38.165 org.eclipse.jetty.server.session:[167] - node0 Stopped scavenging
+[INFO] 2019-08-15 13:31:38.167 org.eclipse.jetty.server.handler.ContextHandler:[1047] - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@17a77a7e{application,/,[file:///C:/Users/T1734/AppData/Local/Temp/jetty-docbase.12188534502871228226.12345/, jar:file:/X:/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources, jar:file:/X:/repository/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/META-INF/resources],UNAVAILABLE}
+[INFO] 2019-08-15 13:31:38.174 org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:[135] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR] 2019-08-15 13:31:38.182 org.springframework.boot.SpringApplication:[821] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'executorController': Unsatisfied dependency expressed through field 'execService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'executorService': Unsatisfied dependency expressed through field 'processDefinitionService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'processDefinitionService': Unsatisfied dependency expressed through field 'processDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'processDao' defined in URL [jar:file:/X:/repository/cn/analysys/escheduler-dao/1.0.4-SNAPSHOT/escheduler-dao-1.0.4-SNAPSHOT.jar!/cn/escheduler/dao/ProcessDao.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [cn.escheduler.dao.ProcessDao]: Constructor threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/curator/connection/StandardConnectionHandlingPolicy
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at cn.escheduler.api.EschedulerApplication.main(EschedulerApplication.java:18)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'executorService': Unsatisfied dependency expressed through field 'processDefinitionService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'processDefinitionService': Unsatisfied dependency expressed through field 'processDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'processDao' defined in URL [jar:file:/X:/repository/cn/analysys/escheduler-dao/1.0.4-SNAPSHOT/escheduler-dao-1.0.4-SNAPSHOT.jar!/cn/escheduler/dao/ProcessDao.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [cn.escheduler.dao.ProcessDao]: Constructor threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/curator/connection/StandardConnectionHandlingPolicy
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'processDefinitionService': Unsatisfied dependency expressed through field 'processDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'processDao' defined in URL [jar:file:/X:/repository/cn/analysys/escheduler-dao/1.0.4-SNAPSHOT/escheduler-dao-1.0.4-SNAPSHOT.jar!/cn/escheduler/dao/ProcessDao.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [cn.escheduler.dao.ProcessDao]: Constructor threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/curator/connection/StandardConnectionHandlingPolicy
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'processDao' defined in URL [jar:file:/X:/repository/cn/analysys/escheduler-dao/1.0.4-SNAPSHOT/escheduler-dao-1.0.4-SNAPSHOT.jar!/cn/escheduler/dao/ProcessDao.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [cn.escheduler.dao.ProcessDao]: Constructor threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/curator/connection/StandardConnectionHandlingPolicy
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 45 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [cn.escheduler.dao.ProcessDao]: Constructor threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/curator/connection/StandardConnectionHandlingPolicy
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:184)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1295)
+	... 56 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/apache/curator/connection/StandardConnectionHandlingPolicy
+	at org.apache.curator.framework.CuratorFrameworkFactory$Builder.<init>(CuratorFrameworkFactory.java:147)
+	at org.apache.curator.framework.CuratorFrameworkFactory$Builder.<init>(CuratorFrameworkFactory.java:130)
+	at org.apache.curator.framework.CuratorFrameworkFactory.builder(CuratorFrameworkFactory.java:78)
+	at cn.escheduler.common.zk.AbstractZKClient.<init>(AbstractZKClient.java:98)
+	at cn.escheduler.common.queue.TaskQueueZkImpl.<init>(TaskQueueZkImpl.java:43)
+	at cn.escheduler.common.queue.TaskQueueZkImpl.getInstance(TaskQueueZkImpl.java:51)
+	at cn.escheduler.common.queue.TaskQueueFactory.getTaskQueueInstance(TaskQueueFactory.java:52)
+	at cn.escheduler.dao.ProcessDao.init(ProcessDao.java:125)
+	at cn.escheduler.dao.ProcessDao.<init>(ProcessDao.java:106)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172)
+	... 58 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.apache.curator.connection.StandardConnectionHandlingPolicy
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 73 common frames omitted
+[INFO] 2019-08-15 13:35:10.998 cn.escheduler.api.EschedulerApplication:[646] - No active profile set, falling back to default profiles: default
+[INFO] 2019-08-15 13:35:12.180 org.springframework.cloud.context.scope.GenericScope:[295] - BeanFactory id=a92ec2c3-9c59-3abc-a1b9-6860211a21d8
+[INFO] 2019-08-15 13:35:12.286 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:[330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$948e5831] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2019-08-15 13:35:12.300 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b0a85b2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2019-08-15 13:35:12.427 org.eclipse.jetty.util.log:[193] - Logging initialized @3131ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO] 2019-08-15 13:35:12.538 org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory:[143] - Server initialized with port: 12345
+[INFO] 2019-08-15 13:35:12.540 org.eclipse.jetty.server.Server:[370] - jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 12+33
+[INFO] 2019-08-15 13:35:12.563 org.eclipse.jetty.server.handler.ContextHandler.application:[2351] - Initializing Spring embedded WebApplicationContext
+[INFO] 2019-08-15 13:35:12.564 org.springframework.web.context.ContextLoader:[283] - Root WebApplicationContext: initialization completed in 1554 ms
+[INFO] 2019-08-15 13:35:12.598 org.eclipse.jetty.server.session:[365] - DefaultSessionIdManager workerName=node0
+[INFO] 2019-08-15 13:35:12.599 org.eclipse.jetty.server.session:[370] - No SessionScavenger set, using defaults
+[INFO] 2019-08-15 13:35:12.600 org.eclipse.jetty.server.session:[149] - node0 Scavenging every 600000ms
+[INFO] 2019-08-15 13:35:12.605 org.eclipse.jetty.server.handler.ContextHandler:[857] - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@12404f9d{application,/,[file:///C:/Users/T1734/AppData/Local/Temp/jetty-docbase.18099896075652947105.12345/, jar:file:/X:/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources, jar:file:/X:/repository/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/META-INF/resources],AVAILABLE}
+[INFO] 2019-08-15 13:35:12.606 org.eclipse.jetty.server.Server:[410] - Started @3311ms
+[INFO] 2019-08-15 13:35:12.852 com.alibaba.druid.pool.DruidDataSource:[991] - {dataSource-1} inited
+[INFO] 2019-08-15 13:35:13.238 cn.escheduler.common.queue.TaskQueueFactory:[51] - task queue impl use zookeeper 
+[INFO] 2019-08-15 13:35:13.293 org.apache.curator.framework.imps.CuratorFrameworkImpl:[235] - Starting
+[WARN] 2019-08-15 13:35:34.333 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 13:35:55.436 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 13:36:16.540 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 13:36:38.643 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 13:36:59.752 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 13:37:20.853 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 13:37:42.955 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 13:38:04.057 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO] 2019-08-15 13:47:55.825 cn.escheduler.api.EschedulerApplication:[675] - No active profile set, falling back to default profiles: default
+[INFO] 2019-08-15 13:47:56.998 org.springframework.cloud.context.scope.GenericScope:[295] - BeanFactory id=a92ec2c3-9c59-3abc-a1b9-6860211a21d8
+[INFO] 2019-08-15 13:47:57.102 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:[330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ae8b236] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2019-08-15 13:47:57.116 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2702b533] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2019-08-15 13:47:57.249 org.eclipse.jetty.util.log:[193] - Logging initialized @3179ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO] 2019-08-15 13:47:57.367 org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory:[143] - Server initialized with port: 12345
+[INFO] 2019-08-15 13:47:57.369 org.eclipse.jetty.server.Server:[370] - jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 12+33
+[INFO] 2019-08-15 13:47:57.392 org.eclipse.jetty.server.handler.ContextHandler.application:[2345] - Initializing Spring embedded WebApplicationContext
+[INFO] 2019-08-15 13:47:57.393 org.springframework.web.context.ContextLoader:[296] - Root WebApplicationContext: initialization completed in 1556 ms
+[INFO] 2019-08-15 13:47:57.426 org.eclipse.jetty.server.session:[365] - DefaultSessionIdManager workerName=node0
+[INFO] 2019-08-15 13:47:57.427 org.eclipse.jetty.server.session:[370] - No SessionScavenger set, using defaults
+[INFO] 2019-08-15 13:47:57.428 org.eclipse.jetty.server.session:[149] - node0 Scavenging every 600000ms
+[INFO] 2019-08-15 13:47:57.432 org.eclipse.jetty.server.handler.ContextHandler:[855] - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@42cd0fc6{application,/,[file:///C:/Users/T1734/AppData/Local/Temp/jetty-docbase.1467659287202493960.12345/, jar:file:/X:/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar!/META-INF/resources, jar:file:/X:/repository/com/github/xiaoymin/swagger-bootstrap-ui/1.9.3/swagger-bootstrap-ui-1.9.3.jar!/META-INF/resources],AVAILABLE}
+[INFO] 2019-08-15 13:47:57.433 org.eclipse.jetty.server.Server:[407] - Started @3363ms
+[INFO] 2019-08-15 13:47:57.614 com.alibaba.druid.pool.DruidDataSource:[991] - {dataSource-1} inited
+[INFO] 2019-08-15 13:47:57.978 cn.escheduler.common.queue.TaskQueueFactory:[51] - task queue impl use zookeeper 
+[INFO] 2019-08-15 13:47:58.041 org.apache.curator.framework.imps.CuratorFrameworkImpl:[235] - Starting
+[WARN] 2019-08-15 13:48:19.077 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 13:48:40.184 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 13:49:01.291 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 13:49:23.393 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[INFO] 2019-08-15 14:34:04.363 cn.escheduler.api.EschedulerApplication:[675] - No active profile set, falling back to default profiles: default
+[INFO] 2019-08-15 14:34:05.557 org.springframework.cloud.context.scope.GenericScope:[295] - BeanFactory id=d9d9e4bc-a956-3c6a-a0b8-58362f458916
+[INFO] 2019-08-15 14:34:05.670 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:[330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aed6d50b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2019-08-15 14:34:05.683 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:[330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$caf0d808] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2019-08-15 14:34:05.961 org.springframework.boot.web.embedded.tomcat.TomcatWebServer:[90] - Tomcat initialized with port(s): 12345 (http)
+[INFO] 2019-08-15 14:34:05.987 org.apache.coyote.http11.Http11NioProtocol:[173] - Initializing ProtocolHandler ["http-nio-12345"]
+[INFO] 2019-08-15 14:34:05.995 org.apache.catalina.core.StandardService:[173] - Starting service [Tomcat]
+[INFO] 2019-08-15 14:34:05.995 org.apache.catalina.core.StandardEngine:[173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO] 2019-08-15 14:34:06.001 org.apache.catalina.core.AprLifecycleListener:[173] - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+[INFO] 2019-08-15 14:34:06.002 org.apache.catalina.core.AprLifecycleListener:[173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO] 2019-08-15 14:34:06.002 org.apache.catalina.core.AprLifecycleListener:[173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO] 2019-08-15 14:34:06.007 org.apache.catalina.core.AprLifecycleListener:[173] - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+[INFO] 2019-08-15 14:34:06.226 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:[173] - Initializing Spring embedded WebApplicationContext
+[INFO] 2019-08-15 14:34:06.227 org.springframework.web.context.ContextLoader:[296] - Root WebApplicationContext: initialization completed in 1850 ms
+[INFO] 2019-08-15 14:34:06.463 com.alibaba.druid.pool.DruidDataSource:[991] - {dataSource-1} inited
+[INFO] 2019-08-15 14:34:06.831 cn.escheduler.common.queue.TaskQueueFactory:[51] - task queue impl use zookeeper 
+[INFO] 2019-08-15 14:34:06.877 org.apache.curator.framework.imps.CuratorFrameworkImpl:[235] - Starting
+[WARN] 2019-08-15 14:34:27.910 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:34:49.017 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:35:10.118 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:35:32.221 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:35:53.326 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:36:14.429 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:36:36.527 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:36:57.627 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:37:18.726 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:37:40.832 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:38:01.930 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:38:23.033 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:38:45.135 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:39:06.238 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:39:07.204 org.apache.curator.ConnectionState:[219] - Connection attempt unsuccessful after 300324 (greater than max timeout of 300000). Resetting connection and trying again with a new connection.
+[WARN] 2019-08-15 14:39:48.435 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:40:09.536 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:40:30.637 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:40:52.740 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:41:13.842 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:41:34.945 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:41:57.041 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:42:18.141 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:42:39.251 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:43:01.359 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:43:22.463 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:43:43.566 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:44:05.669 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:44:26.775 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:44:47.871 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:44:49.853 org.apache.curator.ConnectionState:[219] - Connection attempt unsuccessful after 342647 (greater than max timeout of 300000). Resetting connection and trying again with a new connection.
+[WARN] 2019-08-15 14:45:31.082 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:45:52.186 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:46:13.287 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:46:35.385 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:46:56.493 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:47:17.591 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:47:39.694 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:48:00.797 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:48:21.906 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:48:44.004 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:49:05.109 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:49:26.204 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:49:48.312 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:50:09.419 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:50:30.525 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:50:32.505 org.apache.curator.ConnectionState:[219] - Connection attempt unsuccessful after 342651 (greater than max timeout of 300000). Resetting connection and trying again with a new connection.
+[WARN] 2019-08-15 14:51:13.741 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:51:34.840 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:51:55.949 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:52:18.060 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:52:39.170 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:53:00.282 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:53:22.391 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:53:43.486 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:54:04.587 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:54:26.690 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:54:47.796 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:55:08.889 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:55:30.999 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:55:52.103 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:56:13.205 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:56:21.133 org.apache.curator.ConnectionState:[219] - Connection attempt unsuccessful after 348625 (greater than max timeout of 300000). Resetting connection and trying again with a new connection.
+[WARN] 2019-08-15 14:56:56.420 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:57:17.524 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:57:38.626 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:58:00.736 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:58:21.841 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:58:42.941 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:59:05.046 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:59:26.150 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+[WARN] 2019-08-15 14:59:47.257 org.apache.zookeeper.ClientCnxn:[1162] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)

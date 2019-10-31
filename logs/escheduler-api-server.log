@@ -1,0 +1,168 @@
+[INFO] 2019-08-16 10:04:04.274 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:[43] - Resolving eureka endpoints via configuration
+[INFO] 2019-08-16 10:05:02.274 cn.escheduler.api.controller.DataAnalysisController:[189] - count command state, user:wanglei, start date: 0, end date:{}, project id {}
+[INFO] 2019-08-16 10:05:02.275 cn.escheduler.api.controller.DataAnalysisController:[104] - count process instance state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:05:02, project id
+[INFO] 2019-08-16 10:05:02.274 cn.escheduler.api.controller.DataAnalysisController:[161] - count command state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:05:02, project id 0
+[INFO] 2019-08-16 10:05:02.275 cn.escheduler.common.queue.TaskQueueFactory:[51] - task queue impl use zookeeper 
+[INFO] 2019-08-16 10:05:02.275 cn.escheduler.api.controller.DataAnalysisController:[130] - count process definition , user:wanglei, project id
+[INFO] 2019-08-16 10:05:02.277 cn.escheduler.api.controller.DataAnalysisController:[74] - count task state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:05:02, project id 0
+[INFO] 2019-08-16 10:05:07.464 cn.escheduler.api.controller.TaskInstanceController:[85] - query task instance list, project name:winSchedule,process instance:0, search value:,task name:null, state type:SUCCESS, host:, start:2019-08-16 00:00:00, end:2019-08-16 10:05:02
+[INFO] 2019-08-16 10:05:07.557 cn.escheduler.api.controller.TaskInstanceController:[85] - query task instance list, project name:winSchedule,process instance:0, search value:,task name:null, state type:SUCCESS, host:, start:2019-08-16 00:00:00, end:2019-08-16 10:05:02
+[INFO] 2019-08-16 10:05:20.902 cn.escheduler.api.controller.UsersController:[323] - login user wanglei,get user info : {}
+[INFO] 2019-08-16 10:05:21.077 cn.escheduler.api.controller.ProcessDefinitionController:[278] - query proccess definition list paging, login user:wanglei, project name:winSchedule
+[INFO] 2019-08-16 10:05:27.077 cn.escheduler.api.controller.DataAnalysisController:[74] - count task state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:05:27, project id 0
+[INFO] 2019-08-16 10:05:27.079 cn.escheduler.api.controller.DataAnalysisController:[104] - count process instance state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:05:27, project id
+[INFO] 2019-08-16 10:05:27.080 cn.escheduler.api.controller.DataAnalysisController:[189] - count command state, user:wanglei, start date: 0, end date:{}, project id {}
+[INFO] 2019-08-16 10:05:27.080 cn.escheduler.common.queue.TaskQueueFactory:[51] - task queue impl use zookeeper 
+[INFO] 2019-08-16 10:05:27.085 cn.escheduler.api.controller.DataAnalysisController:[130] - count process definition , user:wanglei, project id
+[INFO] 2019-08-16 10:05:27.086 cn.escheduler.api.controller.DataAnalysisController:[161] - count command state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:05:27, project id 0
+[INFO] 2019-08-16 10:05:36.830 cn.escheduler.api.controller.ProcessInstanceController:[88] - query all process instance list, login user:wanglei,project name:winSchedule, define id:0,search value:,state type:SUCCESS,host:,start time:2019-08-16 00:00:00, end time:2019-08-16 10:05:27,page number:1, page size:10
+[INFO] 2019-08-16 10:05:36.927 cn.escheduler.api.controller.ProcessInstanceController:[88] - query all process instance list, login user:wanglei,project name:winSchedule, define id:0,search value:,state type:SUCCESS,host:,start time:2019-08-16 00:00:00, end time:2019-08-16 10:05:27,page number:1, page size:10
+[INFO] 2019-08-16 10:05:41.571 cn.escheduler.api.controller.TaskInstanceController:[85] - query task instance list, project name:winSchedule,process instance:0, search value:,task name:null, state type:SUCCESS, host:, start:2019-08-16 00:00:00, end:2019-08-16 10:05:27
+[INFO] 2019-08-16 10:05:41.663 cn.escheduler.api.controller.TaskInstanceController:[85] - query task instance list, project name:winSchedule,process instance:0, search value:,task name:null, state type:SUCCESS, host:, start:2019-08-16 00:00:00, end:2019-08-16 10:05:27
+[INFO] 2019-08-16 10:06:04.422 cn.escheduler.api.controller.UsersController:[323] - login user wanglei,get user info : {}
+[INFO] 2019-08-16 10:06:04.603 cn.escheduler.api.controller.ProcessDefinitionController:[278] - query proccess definition list paging, login user:wanglei, project name:winSchedule
+[INFO] 2019-08-16 10:06:06.853 cn.escheduler.api.controller.ExecutorController:[160] - login user wanglei, check process definition
+[INFO] 2019-08-16 10:06:06.946 cn.escheduler.api.controller.ExecutorController:[190] - login user wanglei, get process definition receiver and cc
+[INFO] 2019-08-16 10:06:06.947 cn.escheduler.api.service.ExecutorService:[372] - processInstanceId null
+[INFO] 2019-08-16 10:06:06.947 cn.escheduler.api.controller.AlertGroupController:[97] - login  user wanglei, query all alertGroup
+[INFO] 2019-08-16 10:06:06.947 cn.escheduler.api.controller.WorkerGroupController:[135] - query all worker group: login user wanglei
+[INFO] 2019-08-16 10:06:09.608 cn.escheduler.api.controller.ExecutorController:[92] - login user wanglei, start process instance, project name: winSchedule, process definition id: 9, schedule time: , failure policy: CONTINUE, node name: TASK_POST, node dep: NONE, notify type: 0, notify group id: ,receivers:,receiversCc:RUN_MODE_SERIAL, run mode: MEDIUM,process instance priority:1, workerGroupId: null, timeout: {}
+[INFO] 2019-08-16 10:06:09.736 cn.escheduler.api.controller.ProcessDefinitionController:[278] - query proccess definition list paging, login user:wanglei, project name:winSchedule
+[INFO] 2019-08-16 10:06:11.674 cn.escheduler.api.controller.DataAnalysisController:[74] - count task state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:06:11, project id 0
+[INFO] 2019-08-16 10:06:11.675 cn.escheduler.api.controller.DataAnalysisController:[104] - count process instance state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:06:11, project id
+[INFO] 2019-08-16 10:06:11.675 cn.escheduler.api.controller.DataAnalysisController:[189] - count command state, user:wanglei, start date: 0, end date:{}, project id {}
+[INFO] 2019-08-16 10:06:11.676 cn.escheduler.common.queue.TaskQueueFactory:[51] - task queue impl use zookeeper 
+[INFO] 2019-08-16 10:06:11.676 cn.escheduler.api.controller.DataAnalysisController:[161] - count command state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:06:11, project id 0
+[INFO] 2019-08-16 10:06:11.676 cn.escheduler.api.controller.DataAnalysisController:[130] - count process definition , user:wanglei, project id
+[INFO] 2019-08-16 10:06:16.569 cn.escheduler.api.controller.TaskInstanceController:[85] - query task instance list, project name:winSchedule,process instance:0, search value:,task name:null, state type:SUCCESS, host:, start:2019-08-16 00:00:00, end:2019-08-16 10:06:11
+[INFO] 2019-08-16 10:06:16.666 cn.escheduler.api.controller.TaskInstanceController:[85] - query task instance list, project name:winSchedule,process instance:0, search value:,task name:null, state type:SUCCESS, host:, start:2019-08-16 00:00:00, end:2019-08-16 10:06:11
+[INFO] 2019-08-16 10:07:16.165 cn.escheduler.api.controller.TaskInstanceController:[85] - query task instance list, project name:winSchedule,process instance:0, search value:,task name:null, state type:SUCCESS, host:, start:2019-08-16 00:00:00, end:2019-08-16 10:06:11
+[INFO] 2019-08-16 10:07:20.724 cn.escheduler.api.controller.LoggerController:[72] - login user wanglei, view 34 task instance log ,skipLineNum 0 , limit 10000
+[INFO] 2019-08-16 10:07:20.728 cn.escheduler.api.service.LoggerService:[57] - log host : 192.168.5.50 , logPath : D:\ChromeCoreDownloads\EasyScheduler-dev/logs/8/32/34.log , logServer port : 50051
+[INFO] 2019-08-16 10:07:20.899 cn.escheduler.api.service.LoggerService:[64] - 日志收集开始时间:1565921240899
+[INFO] 2019-08-16 10:07:20.900 cn.escheduler.api.log.LogClient:[78] - roll view log : path D:\ChromeCoreDownloads\EasyScheduler-dev/logs/8/32/34.log,skipLineNum 0 ,limit 10000
+[ERROR] 2019-08-16 10:07:22.218 cn.escheduler.api.log.LogClient:[90] - roll view log error
+io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at io.grpc.stub.ClientCalls.toStatusRuntimeException(ClientCalls.java:221)
+	at io.grpc.stub.ClientCalls.getUnchecked(ClientCalls.java:202)
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:131)
+	at cn.escheduler.rpc.LogViewServiceGrpc$LogViewServiceBlockingStub.rollViewLog(LogViewServiceGrpc.java:310)
+	at cn.escheduler.api.log.LogClient.rollViewLog(LogClient.java:87)
+	at cn.escheduler.api.service.LoggerService.queryLog(LoggerService.java:65)
+	at cn.escheduler.api.controller.LoggerController.queryLog(LoggerController.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.xiaoymin.swaggerbootstrapui.filter.SecurityBasicAuthFilter.doFilter(SecurityBasicAuthFilter.java:84)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.github.xiaoymin.swaggerbootstrapui.filter.ProductionSecurityFilter.doFilter(ProductionSecurityFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: T1671-PC/192.168.5.50:50051
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:670)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 12 common frames omitted
+[INFO] 2019-08-16 10:07:22.220 cn.escheduler.api.service.LoggerService:[67] - 日志收集结束时间1565921242220,花费时间1321
+[INFO] 2019-08-16 10:07:22.220 cn.escheduler.api.service.LoggerService:[69] - null
+[INFO] 2019-08-16 10:09:04.294 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:[43] - Resolving eureka endpoints via configuration
+[INFO] 2019-08-16 10:12:53.999 cn.escheduler.api.controller.ProcessDefinitionController:[278] - query proccess definition list paging, login user:wanglei, project name:winSchedule
+[INFO] 2019-08-16 10:13:00.584 cn.escheduler.api.controller.DataAnalysisController:[104] - count process instance state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:13:00, project id
+[INFO] 2019-08-16 10:13:00.585 cn.escheduler.api.controller.DataAnalysisController:[189] - count command state, user:wanglei, start date: 0, end date:{}, project id {}
+[INFO] 2019-08-16 10:13:00.585 cn.escheduler.common.queue.TaskQueueFactory:[51] - task queue impl use zookeeper 
+[INFO] 2019-08-16 10:13:00.586 cn.escheduler.api.controller.DataAnalysisController:[130] - count process definition , user:wanglei, project id
+[INFO] 2019-08-16 10:13:00.588 cn.escheduler.api.controller.DataAnalysisController:[161] - count command state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:13:00, project id 0
+[INFO] 2019-08-16 10:13:00.589 cn.escheduler.api.controller.DataAnalysisController:[74] - count task state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:13:00, project id 0
+[INFO] 2019-08-16 10:13:02.473 cn.escheduler.api.controller.TaskInstanceController:[85] - query task instance list, project name:winSchedule,process instance:0, search value:,task name:null, state type:SUCCESS, host:, start:2019-08-16 00:00:00, end:2019-08-16 10:13:00
+[INFO] 2019-08-16 10:13:02.550 cn.escheduler.api.controller.TaskInstanceController:[85] - query task instance list, project name:winSchedule,process instance:0, search value:,task name:null, state type:SUCCESS, host:, start:2019-08-16 00:00:00, end:2019-08-16 10:13:00
+[INFO] 2019-08-16 10:14:04.310 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:[43] - Resolving eureka endpoints via configuration
+[INFO] 2019-08-16 10:19:04.326 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:[43] - Resolving eureka endpoints via configuration
+[INFO] 2019-08-16 10:24:04.342 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:[43] - Resolving eureka endpoints via configuration
+[INFO] 2019-08-16 10:29:04.358 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:[43] - Resolving eureka endpoints via configuration
+[INFO] 2019-08-16 10:32:27.891 cn.escheduler.api.controller.ProcessDefinitionController:[278] - query proccess definition list paging, login user:wanglei, project name:winSchedule
+[INFO] 2019-08-16 10:32:30.605 cn.escheduler.api.controller.DataAnalysisController:[74] - count task state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:32:30, project id 0
+[INFO] 2019-08-16 10:32:30.607 cn.escheduler.api.controller.DataAnalysisController:[189] - count command state, user:wanglei, start date: 0, end date:{}, project id {}
+[INFO] 2019-08-16 10:32:30.607 cn.escheduler.common.queue.TaskQueueFactory:[51] - task queue impl use zookeeper 
+[INFO] 2019-08-16 10:32:30.609 cn.escheduler.api.controller.DataAnalysisController:[130] - count process definition , user:wanglei, project id
+[INFO] 2019-08-16 10:32:38.921 cn.escheduler.api.controller.TaskInstanceController:[85] - query task instance list, project name:winSchedule,process instance:0, search value:,task name:null, state type:SUCCESS, host:, start:2019-08-16 00:00:00, end:2019-08-16 10:32:30
+[INFO] 2019-08-16 10:32:44.694 cn.escheduler.api.controller.ExecutorController:[160] - login user wanglei, check process definition
+[INFO] 2019-08-16 10:32:44.817 cn.escheduler.api.controller.WorkerGroupController:[135] - query all worker group: login user wanglei
+[INFO] 2019-08-16 10:32:48.425 cn.escheduler.api.controller.ExecutorController:[92] - login user wanglei, start process instance, project name: winSchedule, process definition id: 9, schedule time: , failure policy: CONTINUE, node name: TASK_POST, node dep: NONE, notify type: 0, notify group id: ,receivers:,receiversCc:RUN_MODE_SERIAL, run mode: MEDIUM,process instance priority:1, workerGroupId: null, timeout: {}
+[INFO] 2019-08-16 10:33:06.673 cn.escheduler.api.controller.DataAnalysisController:[189] - count command state, user:wanglei, start date: 0, end date:{}, project id {}
+[INFO] 2019-08-16 10:33:06.673 cn.escheduler.common.queue.TaskQueueFactory:[51] - task queue impl use zookeeper 
+[INFO] 2019-08-16 10:33:06.673 cn.escheduler.api.controller.DataAnalysisController:[104] - count process instance state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:33:06, project id
+[INFO] 2019-08-16 10:34:04.374 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:[43] - Resolving eureka endpoints via configuration
+[INFO] 2019-08-16 10:35:04.216 cn.escheduler.api.controller.DataAnalysisController:[74] - count task state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:35:04, project id 0
+[INFO] 2019-08-16 10:35:04.217 cn.escheduler.api.controller.DataAnalysisController:[104] - count process instance state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:35:04, project id
+[INFO] 2019-08-16 10:35:04.237 cn.escheduler.api.controller.DataAnalysisController:[130] - count process definition , user:wanglei, project id
+[INFO] 2019-08-16 10:35:11.195 cn.escheduler.api.controller.DataAnalysisController:[74] - count task state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:35:11, project id 0
+[INFO] 2019-08-16 10:35:11.199 cn.escheduler.api.controller.DataAnalysisController:[161] - count command state, user:wanglei, start date: 2019-08-16 00:00:00, end date:2019-08-16 10:35:11, project id 0
+[INFO] 2019-08-16 10:35:11.200 cn.escheduler.api.controller.DataAnalysisController:[130] - count process definition , user:wanglei, project id
+[INFO] 2019-08-16 10:35:28.848 cn.escheduler.api.controller.TaskInstanceController:[85] - query task instance list, project name:winSchedule,process instance:0, search value:,task name:null, state type:SUCCESS, host:, start:2019-08-16 00:00:00, end:2019-08-16 10:35:11
+[INFO] 2019-08-16 10:37:24.104 cn.escheduler.api.controller.ProcessDefinitionController:[278] - query proccess definition list paging, login user:wanglei, project name:winSchedule
+[INFO] 2019-08-16 10:37:27.396 cn.escheduler.api.controller.AlertGroupController:[97] - login  user wanglei, query all alertGroup
+[INFO] 2019-08-16 10:37:27.397 cn.escheduler.api.controller.ExecutorController:[190] - login user wanglei, get process definition receiver and cc
+[INFO] 2019-08-16 10:37:27.397 cn.escheduler.api.service.ExecutorService:[372] - processInstanceId null
+[INFO] 2019-08-16 10:37:30.279 cn.escheduler.api.controller.ProcessDefinitionController:[278] - query proccess definition list paging, login user:wanglei, project name:winSchedule
